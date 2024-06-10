@@ -16,7 +16,7 @@ Programming language: Python (84.4%)
 
 Lizard was run on the forked MITMproxy files. 
 
-![Coverage results by Lizard](image.png)
+![Coverage results by Lizard](lizard coverage results.png)
 
 ### Your own coverage tool
 
