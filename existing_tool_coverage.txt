@@ -1,0 +1,452 @@
+Name                                                             Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------------------------------
+/tmp/pytest-of-connork/pytest-0/test_reload0/foo.py                  0      0   100%
+examples/addons/anatomy2.py                                          2      0   100%
+examples/addons/contentview-custom-grpc.py                          22      1    95%   112
+examples/addons/contentview.py                                      17      2    88%   39, 52
+examples/addons/http-modify-form.py                                  5      0   100%
+examples/addons/http-modify-query-string.py                          3      0   100%
+examples/addons/http-redirect-requests.py                            4      0   100%
+examples/addons/http-reply-from-proxy.py                             4      0   100%
+mitmproxy/__init__.py                                                0      0   100%
+mitmproxy/addonmanager.py                                          149      0   100%
+mitmproxy/addons/__init__.py                                        32      0   100%
+mitmproxy/addons/anticache.py                                        7      0   100%
+mitmproxy/addons/anticomp.py                                         7      0   100%
+mitmproxy/addons/asgiapp.py                                         58      0   100%
+mitmproxy/addons/block.py                                           20      0   100%
+mitmproxy/addons/block_ech.py                                       10      0   100%
+mitmproxy/addons/blocklist.py                                       49      0   100%
+mitmproxy/addons/browser.py                                         45      0   100%
+mitmproxy/addons/clientplayback.py                                 186     33    82%   49-80, 95-96, 98-100, 105, 113-114, 124-125, 128-142, 179-184
+mitmproxy/addons/command_history.py                                 67      0   100%
+mitmproxy/addons/comment.py                                         13      0   100%
+mitmproxy/addons/core.py                                           180      0   100%
+mitmproxy/addons/cut.py                                            100      0   100%
+mitmproxy/addons/disable_h2c.py                                     16      0   100%
+mitmproxy/addons/dns_resolver.py                                    62      0   100%
+mitmproxy/addons/dumper.py                                         250      0   100%
+mitmproxy/addons/errorcheck.py                                      30      0   100%
+mitmproxy/addons/eventstore.py                                      36      0   100%
+mitmproxy/addons/export.py                                         128      0   100%
+mitmproxy/addons/intercept.py                                       39      0   100%
+mitmproxy/addons/keepserving.py                                     20      0   100%
+mitmproxy/addons/maplocal.py                                        99      0   100%
+mitmproxy/addons/mapremote.py                                       42      0   100%
+mitmproxy/addons/modifybody.py                                      45      0   100%
+mitmproxy/addons/modifyheaders.py                                   72      0   100%
+mitmproxy/addons/next_layer.py                                     227      0   100%
+mitmproxy/addons/onboarding.py                                      17      0   100%
+mitmproxy/addons/onboardingapp/__init__.py                          37      1    97%   42
+mitmproxy/addons/proxyauth.py                                      160      0   100%
+mitmproxy/addons/proxyserver.py                                    191      3    98%   53, 66, 306
+mitmproxy/addons/readfile.py                                        64      0   100%
+mitmproxy/addons/save.py                                           128      0   100%
+mitmproxy/addons/savehar.py                                        146      0   100%
+mitmproxy/addons/script.py                                         146      0   100%
+mitmproxy/addons/server_side_events.py                               8      0   100%
+mitmproxy/addons/serverplayback.py                                 137      0   100%
+mitmproxy/addons/stickyauth.py                                      26      0   100%
+mitmproxy/addons/stickycookie.py                                    59      0   100%
+mitmproxy/addons/termlog.py                                         32      0   100%
+mitmproxy/addons/tlsconfig.py                                      220      0   100%
+mitmproxy/addons/upstream_auth.py                                   31      0   100%
+mitmproxy/addons/view.py                                           459      0   100%
+mitmproxy/certs.py                                                 283      1    99%   120
+mitmproxy/command.py                                               202      0   100%
+mitmproxy/command_lexer.py                                          16      0   100%
+mitmproxy/connection.py                                            135      0   100%
+mitmproxy/contentviews/__init__.py                                 130      0   100%
+mitmproxy/contentviews/auto.py                                      11      0   100%
+mitmproxy/contentviews/base.py                                      34      1    97%   66
+mitmproxy/contentviews/css.py                                       26      0   100%
+mitmproxy/contentviews/dns.py                                       13      0   100%
+mitmproxy/contentviews/graphql.py                                   37      0   100%
+mitmproxy/contentviews/grpc.py                                     455     20    96%   248, 268, 284, 320, 345, 385, 388, 406, 524-531, 534, 536, 538-539, 608, 735, 791, 794
+mitmproxy/contentviews/hex.py                                       18      0   100%
+mitmproxy/contentviews/http3.py                                     99      0   100%
+mitmproxy/contentviews/image/__init__.py                             2      0   100%
+mitmproxy/contentviews/image/image_parser.py                        67      0   100%
+mitmproxy/contentviews/image/view.py                                27      0   100%
+mitmproxy/contentviews/javascript.py                                32      0   100%
+mitmproxy/contentviews/json.py                                      46      0   100%
+mitmproxy/contentviews/mqtt.py                                     140      0   100%
+mitmproxy/contentviews/msgpack.py                                   55      0   100%
+mitmproxy/contentviews/multipart.py                                 21      0   100%
+mitmproxy/contentviews/protobuf.py                                  60      0   100%
+mitmproxy/contentviews/query.py                                     11      0   100%
+mitmproxy/contentviews/raw.py                                        7      0   100%
+mitmproxy/contentviews/urlencoded.py                                13      0   100%
+mitmproxy/contentviews/wbxml.py                                     15      0   100%
+mitmproxy/contentviews/xml_html.py                                 156      0   100%
+mitmproxy/contrib/__init__.py                                        0      0   100%
+mitmproxy/contrib/click/__init__.py                                 45     15    67%   34, 37-38, 121, 128-129, 132-135, 142, 144, 146, 150, 152
+mitmproxy/contrib/imghdr.py                                         74     17    77%   26-32, 53, 74, 81, 89, 97, 105, 112, 119, 126, 133, 140
+mitmproxy/contrib/kaitaistruct/__init__.py                           0      0   100%
+mitmproxy/contrib/kaitaistruct/dtls_client_hello.py                152      1    99%   8
+mitmproxy/contrib/kaitaistruct/exif.py                             610     38    94%   9, 33-34, 36, 39-40, 47-48, 60, 63-64, 75-80, 84-96, 579, 582-583, 592-595, 600, 616, 633, 642, 649
+mitmproxy/contrib/kaitaistruct/gif.py                              250     26    90%   9, 113, 121, 150, 157-161, 165-169, 174, 230, 248, 254, 258-262, 266-270, 295, 354
+mitmproxy/contrib/kaitaistruct/google_protobuf.py                   63      1    98%   9
+mitmproxy/contrib/kaitaistruct/ico.py                               59     12    80%   8, 28, 48, 60-67, 75, 87
+mitmproxy/contrib/kaitaistruct/jpeg.py                             195     11    94%   9, 96, 202-206, 210-214, 228
+mitmproxy/contrib/kaitaistruct/png.py                              361    140    61%   10, 50, 53, 56, 70-73, 76-78, 101-103, 105-107, 117-119, 125-127, 129-131, 133-135, 141-143, 152-155, 158, 163-166, 169-170, 174-178, 182-186, 192-195, 198, 207-210, 213-216, 246-249, 252-256, 272-275, 278, 308-311, 314-315, 348-352, 371, 374-379, 407-410, 413-433, 438-442, 495-498, 501-502, 513-516, 519-524
+mitmproxy/contrib/kaitaistruct/tls_client_hello.py                 142      1    99%   8
+mitmproxy/contrib/kaitaistruct/vlq_base128_le.py                    63     11    83%   8, 63, 72, 97-101, 109-113
+mitmproxy/contrib/wbxml/ASCommandResponse.py                        34     16    53%   41, 47, 50, 58-73
+mitmproxy/contrib/wbxml/ASWBXML.py                                 705     15    98%   819, 825-826, 851, 860-864, 869, 872-874, 881, 888, 892
+mitmproxy/contrib/wbxml/ASWBXMLByteQueue.py                         49      8    84%   72, 81-90
+mitmproxy/contrib/wbxml/ASWBXMLCodePage.py                          19      5    74%   42-44, 49, 52
+mitmproxy/contrib/wbxml/GlobalTokens.py                             21      0   100%
+mitmproxy/contrib/wbxml/InvalidDataException.py                      2      0   100%
+mitmproxy/contrib/wbxml/__init__.py                                  0      0   100%
+mitmproxy/coretypes/__init__.py                                      0      0   100%
+mitmproxy/coretypes/bidi.py                                         14      0   100%
+mitmproxy/coretypes/multidict.py                                   102      0   100%
+mitmproxy/coretypes/serializable.py                                109      0   100%
+mitmproxy/ctx.py                                                     6      0   100%
+mitmproxy/dns.py                                                   236      0   100%
+mitmproxy/eventsequence.py                                          62      0   100%
+mitmproxy/exceptions.py                                             14      0   100%
+mitmproxy/flow.py                                                  140      2    99%   235, 282
+mitmproxy/flowfilter.py                                            410      0   100%
+mitmproxy/hooks.py                                                  46      0   100%
+mitmproxy/http.py                                                  568      0   100%
+mitmproxy/io/__init__.py                                             5      0   100%
+mitmproxy/io/compat.py                                             263      0   100%
+mitmproxy/io/har.py                                                 79      0   100%
+mitmproxy/io/io.py                                                  70      2    97%   55-56
+mitmproxy/log.py                                                    97     12    88%   133-138, 144-149, 158-163, 169-174, 180-185, 188-193
+mitmproxy/master.py                                                 75      4    95%   74, 111-112, 115
+mitmproxy/net/__init__.py                                            0      0   100%
+mitmproxy/net/check.py                                              28      0   100%
+mitmproxy/net/dns/__init__.py                                        0      0   100%
+mitmproxy/net/dns/classes.py                                         8      0   100%
+mitmproxy/net/dns/domain_names.py                                   72      0   100%
+mitmproxy/net/dns/op_codes.py                                        9      0   100%
+mitmproxy/net/dns/response_codes.py                                 18      0   100%
+mitmproxy/net/dns/types.py                                          92      0   100%
+mitmproxy/net/encoding.py                                           90      0   100%
+mitmproxy/net/http/__init__.py                                       0      0   100%
+mitmproxy/net/http/cookies.py                                      183      1    99%   371
+mitmproxy/net/http/headers.py                                       37      0   100%
+mitmproxy/net/http/http1/__init__.py                                11      0   100%
+mitmproxy/net/http/http1/assemble.py                                44      0   100%
+mitmproxy/net/http/http1/read.py                                   133      0   100%
+mitmproxy/net/http/multipart.py                                     55      0   100%
+mitmproxy/net/http/status_codes.py                                  49      0   100%
+mitmproxy/net/http/url.py                                           91      0   100%
+mitmproxy/net/http/user_agents.py                                    5      0   100%
+mitmproxy/net/local_ip.py                                           14      1    93%   33
+mitmproxy/net/server_spec.py                                        30      0   100%
+mitmproxy/net/tls.py                                                85     20    76%   21-22, 71-77, 80-82, 109, 119-122, 128-129, 247
+mitmproxy/options.py                                                38      0   100%
+mitmproxy/optmanager.py                                            344      0   100%
+mitmproxy/platform/__init__.py                                      23     12    48%   23-38
+mitmproxy/platform/linux.py                                         14      9    36%   22-33
+mitmproxy/platform/pf.py                                            24      1    96%   29
+mitmproxy/proxy/__init__.py                                          0      0   100%
+mitmproxy/proxy/commands.py                                         55      0   100%
+mitmproxy/proxy/context.py                                          24      0   100%
+mitmproxy/proxy/events.py                                           61      0   100%
+mitmproxy/proxy/layer.py                                           175      0   100%
+mitmproxy/proxy/layers/__init__.py                                  13      0   100%
+mitmproxy/proxy/layers/dns.py                                       78      0   100%
+mitmproxy/proxy/layers/http/__init__.py                            658     21    97%   74, 135, 168-171, 200, 320, 441, 528, 774, 804, 820, 824, 859, 919, 989-994, 1057-1058, 1097
+mitmproxy/proxy/layers/http/_base.py                                29      1    97%   40
+mitmproxy/proxy/layers/http/_events.py                              64      0   100%
+mitmproxy/proxy/layers/http/_hooks.py                               29      0   100%
+mitmproxy/proxy/layers/http/_http1.py                              298      5    98%   166, 185-188, 319, 387
+mitmproxy/proxy/layers/http/_http2.py                              371     31    92%   83, 186, 189, 207-211, 222, 230-231, 244, 249-250, 264, 266, 268, 412-414, 552-553, 557-559, 593-596, 643, 650-651, 664-665, 668
+mitmproxy/proxy/layers/http/_http3.py                              155      0   100%
+mitmproxy/proxy/layers/http/_http_h2.py                            110     11    90%   17-19, 22, 27, 128, 139-140, 156-162, 194
+mitmproxy/proxy/layers/http/_http_h3.py                            130      0   100%
+mitmproxy/proxy/layers/http/_upstream_proxy.py                      67     11    84%   84-87, 90-91, 94-102
+mitmproxy/proxy/layers/modes.py                                    183      0   100%
+mitmproxy/proxy/layers/quic.py                                     627      0   100%
+mitmproxy/proxy/layers/tcp.py                                       78      0   100%
+mitmproxy/proxy/layers/tls.py                                      343     27    92%   262, 273-277, 362, 409-416, 424, 431, 436-438, 526-534, 551, 560, 579, 593, 614, 652
+mitmproxy/proxy/layers/udp.py                                       71      0   100%
+mitmproxy/proxy/layers/websocket.py                                152      0   100%
+mitmproxy/proxy/mode_servers.py                                    256      1    99%   53
+mitmproxy/proxy/mode_specs.py                                      147      1    99%   42
+mitmproxy/proxy/server.py                                          296     41    86%   73-75, 142-145, 156, 183-189, 234, 313-316, 340-341, 344-353, 362, 401, 408, 423-425, 431-443
+mitmproxy/proxy/server_hooks.py                                     27      0   100%
+mitmproxy/proxy/tunnel.py                                          130      0   100%
+mitmproxy/proxy/utils.py                                            12      0   100%
+mitmproxy/script/__init__.py                                         2      0   100%
+mitmproxy/script/concurrent.py                                      15      0   100%
+mitmproxy/tcp.py                                                    32      0   100%
+mitmproxy/test/taddons.py                                           43      0   100%
+mitmproxy/test/tflow.py                                            137      0   100%
+mitmproxy/test/tutils.py                                            18      0   100%
+mitmproxy/tls.py                                                    69      0   100%
+mitmproxy/tools/__init__.py                                          0      0   100%
+mitmproxy/tools/cmdline.py                                          72      0   100%
+mitmproxy/tools/console/__init__.py                                  2      0   100%
+mitmproxy/tools/console/commander/__init__.py                        0      0   100%
+mitmproxy/tools/console/commander/commander.py                     196     41    79%   72-74, 116-121, 147-150, 179, 181, 183, 185, 187-190, 192-203, 236, 247-251, 254-257
+mitmproxy/tools/console/commandexecutor.py                          21      4    81%   18-19, 23, 27
+mitmproxy/tools/console/commands.py                                109     36    67%   24, 29, 37, 40, 43, 58, 65, 74-77, 80-83, 93-102, 142, 145-157
+mitmproxy/tools/console/common.py                                  429     71    83%   35-42, 104-111, 151, 158, 179, 195, 266, 288-299, 301, 305, 311-314, 327, 330-342, 368, 381, 385, 428, 433, 435, 451, 469-474, 519, 527, 546, 562-567, 650, 656, 764, 766, 821, 830, 841
+mitmproxy/tools/console/consoleaddons.py                           329    159    52%   123, 130-132, 139, 146, 153-156, 163, 170, 191, 198, 205, 212, 219, 226, 242-250, 265-275, 284, 292-295, 305, 315, 320, 328, 333, 352-361, 379, 381, 383, 402-404, 418-477, 480-483, 490, 497, 504, 511, 519, 526-536, 543, 553-566, 582, 599, 612-615, 622-625, 628-634, 641-645, 652-653, 660-661, 673
+mitmproxy/tools/console/defaultkeys.py                              81      0   100%
+mitmproxy/tools/console/eventlog.py                                 42     18    57%   31, 36-37, 40-44, 47-58, 63
+mitmproxy/tools/console/flowdetailview.py                           82     12    85%   20, 40, 43-45, 57, 62-84
+mitmproxy/tools/console/flowlist.py                                 73     14    81%   20, 35-37, 52-55, 68-69, 75, 97, 99, 108
+mitmproxy/tools/console/flowview.py                                249     20    92%   113, 128, 136, 144, 160, 216, 252-253, 266, 283-284, 297-298, 304, 329, 332, 343, 347, 354-367
+mitmproxy/tools/console/grideditor/__init__.py                      13      0   100%
+mitmproxy/tools/console/grideditor/base.py                         265    137    48%   32-43, 66, 70, 74, 77, 96-97, 102, 105-106, 111, 118-121, 142-143, 146-147, 150-151, 154-161, 164-169, 172-175, 178-181, 184, 187, 190-195, 198-204, 207-208, 211-212, 215-221, 225, 232, 235-237, 242, 247, 308-312, 318, 329, 332-356, 363, 375, 378, 381, 384, 387, 390, 393, 396-400, 432-434, 449-450, 453, 456, 459-469
+mitmproxy/tools/console/grideditor/col_bytes.py                     36     21    42%   10, 13, 16, 19-22, 27-30, 33, 38-41, 44-49
+mitmproxy/tools/console/grideditor/col_subgrid.py                   29     14    52%   14, 17, 20, 23-30, 35-37, 40
+mitmproxy/tools/console/grideditor/col_text.py                      27     11    59%   18, 21, 24, 30-31, 34-39
+mitmproxy/tools/console/grideditor/col_viewany.py                   21      3    86%   20, 27, 34
+mitmproxy/tools/console/grideditor/editors.py                      125     45    64%   21, 24, 35, 38, 45, 48, 56, 59, 67, 70, 81, 84, 87, 90, 101, 104, 116, 119-125, 128-139, 151-154, 157-160, 163, 166, 174-175, 178-181, 184, 206, 209
+mitmproxy/tools/console/help.py                                     54     15    72%   16-21, 46, 57, 76-106, 112-113
+mitmproxy/tools/console/keybindings.py                             116     16    86%   29, 55, 73, 80, 98, 101-102, 104-105, 147-150, 154-156
+mitmproxy/tools/console/keymap.py                                  163     15    91%   80, 172-176, 196-199, 204-207, 245
+mitmproxy/tools/console/layoutwidget.py                             10      1    90%   19
+mitmproxy/tools/console/master.py                                  165     45    73%   68, 71, 84, 95-98, 112-122, 129, 146-147, 155-187, 202-207, 211, 231, 259-260
+mitmproxy/tools/console/options.py                                 188     57    70%   20-23, 27-28, 46, 57, 76, 83-84, 109-111, 114-117, 120, 141, 148, 165-168, 172-183, 186-187, 189-190, 192-211, 262-263, 267-269
+mitmproxy/tools/console/overlay.py                                 117     68    42%   21, 24, 27, 30, 33, 38-47, 55, 58, 65-67, 70-71, 74, 77, 80-83, 86-89, 92-95, 102-109, 120, 123-142, 152-160, 163, 166, 187, 190
+mitmproxy/tools/console/palettes.py                                 80      0   100%
+mitmproxy/tools/console/quickhelp.py                                93      1    99%   74
+mitmproxy/tools/console/searchable.py                               66     43    35%   8-13, 27, 31, 33, 35-36, 38-39, 44-46, 49-56, 59-64, 67-89
+mitmproxy/tools/console/signals.py                                  16      0   100%
+mitmproxy/tools/console/statusbar.py                               255     52    80%   79-91, 96-99, 108, 125-137, 145, 147-150, 158, 184, 226-228, 230-232, 238-240, 248, 295, 297, 300, 312, 318, 331
+mitmproxy/tools/console/tabs.py                                     44      5    89%   17-19, 39, 41
+mitmproxy/tools/console/window.py                                  168     35    79%   30, 34-36, 100, 110, 113, 125, 156, 171, 177-182, 233, 254-257, 277-281, 285-298, 308-312
+mitmproxy/tools/dump.py                                             14      0   100%
+mitmproxy/tools/web/__init__.py                                      2      0   100%
+mitmproxy/tools/web/app.py                                         380     10    97%   298-299, 350-354, 520, 543, 632
+mitmproxy/tools/web/master.py                                       66      0   100%
+mitmproxy/tools/web/static_viewer.py                                65      0   100%
+mitmproxy/tools/web/webaddons.py                                    27     13    52%   23-26, 42-66
+mitmproxy/types.py                                                 265      0   100%
+mitmproxy/udp.py                                                    32      0   100%
+mitmproxy/utils/__init__.py                                          0      0   100%
+mitmproxy/utils/arg_check.py                                        31      0   100%
+mitmproxy/utils/asyncio_utils.py                                    49      5    90%   83-88
+mitmproxy/utils/data.py                                             22      0   100%
+mitmproxy/utils/debug.py                                            35      0   100%
+mitmproxy/utils/emoji.py                                             1      0   100%
+mitmproxy/utils/human.py                                            60      0   100%
+mitmproxy/utils/magisk.py                                           32      0   100%
+mitmproxy/utils/signals.py                                          54      0   100%
+mitmproxy/utils/sliding_window.py                                    5      0   100%
+mitmproxy/utils/spec.py                                             12      0   100%
+mitmproxy/utils/strutils.py                                         85      0   100%
+mitmproxy/utils/typecheck.py                                        51      0   100%
+mitmproxy/utils/vt_codes.py                                         39     33    15%   10-55
+mitmproxy/version.py                                                16      0   100%
+mitmproxy/websocket.py                                              74      0   100%
+test/__init__.py                                                     0      0   100%
+test/conftest.py                                                    45      3    93%   22-23, 34
+test/examples/__init__.py                                            0      0   100%
+test/examples/test_examples.py                                      63      0   100%
+test/mitmproxy/__init__.py                                           5      0   100%
+test/mitmproxy/addons/__init__.py                                    0      0   100%
+test/mitmproxy/addons/test_anticache.py                             17      0   100%
+test/mitmproxy/addons/test_anticomp.py                              14      0   100%
+test/mitmproxy/addons/test_asgiapp.py                               76      0   100%
+test/mitmproxy/addons/test_block.py                                 12      0   100%
+test/mitmproxy/addons/test_block_ech.py                             19      0   100%
+test/mitmproxy/addons/test_blocklist.py                             44      0   100%
+test/mitmproxy/addons/test_browser.py                               43      0   100%
+test/mitmproxy/addons/test_clientplayback.py                       163     63    61%   31-54, 61-76, 103-123, 128-132, 139-153
+test/mitmproxy/addons/test_command_history.py                      230      0   100%
+test/mitmproxy/addons/test_comment.py                                9      0   100%
+test/mitmproxy/addons/test_core.py                                 133      0   100%
+test/mitmproxy/addons/test_cut.py                                  120      0   100%
+test/mitmproxy/addons/test_disable_h2c.py                           28      0   100%
+test/mitmproxy/addons/test_dns_resolver.py                          70      1    99%   62
+test/mitmproxy/addons/test_dumper.py                               264      0   100%
+test/mitmproxy/addons/test_errorcheck.py                            25      0   100%
+test/mitmproxy/addons/test_eventstore.py                            41      0   100%
+test/mitmproxy/addons/test_export.py                               217      0   100%
+test/mitmproxy/addons/test_intercept.py                             82      0   100%
+test/mitmproxy/addons/test_keepserving.py                           35      0   100%
+test/mitmproxy/addons/test_maplocal.py                              78      0   100%
+test/mitmproxy/addons/test_mapremote.py                             37      0   100%
+test/mitmproxy/addons/test_modifybody.py                            80      0   100%
+test/mitmproxy/addons/test_modifyheaders.py                        113      0   100%
+test/mitmproxy/addons/test_next_layer.py                           114      0   100%
+test/mitmproxy/addons/test_onboarding.py                            35      1    97%   15
+test/mitmproxy/addons/test_proxyauth.py                            144      0   100%
+test/mitmproxy/addons/test_proxyserver.py                          580     93    84%   53, 56, 65-67, 75-107, 118-121, 132-133, 141-163, 276-278, 440, 508, 518, 536, 578, 588, 594, 596, 605, 848-887
+test/mitmproxy/addons/test_readfile.py                              91      1    99%   71
+test/mitmproxy/addons/test_save.py                                 151      0   100%
+test/mitmproxy/addons/test_savehar.py                              120      6    95%   244-249
+test/mitmproxy/addons/test_script.py                               179      0   100%
+test/mitmproxy/addons/test_server_side_events.py                     8      0   100%
+test/mitmproxy/addons/test_serverplayback.py                       308      0   100%
+test/mitmproxy/addons/test_stickyauth.py                            24      0   100%
+test/mitmproxy/addons/test_stickycookie.py                          98      0   100%
+test/mitmproxy/addons/test_termlog.py                               47      0   100%
+test/mitmproxy/addons/test_tlsconfig.py                            246      0   100%
+test/mitmproxy/addons/test_upstream_auth.py                         39      0   100%
+test/mitmproxy/addons/test_view.py                                 507      3    99%   262-263, 469
+test/mitmproxy/contentviews/__init__.py                              8      0   100%
+test/mitmproxy/contentviews/image/__init__.py                        0      0   100%
+test/mitmproxy/contentviews/image/test_image_parser.py              18      0   100%
+test/mitmproxy/contentviews/image/test_view.py                      19      0   100%
+test/mitmproxy/contentviews/test_api.py                             55      2    96%   14, 17
+test/mitmproxy/contentviews/test_auto.py                            27      0   100%
+test/mitmproxy/contentviews/test_base.py                            24      0   100%
+test/mitmproxy/contentviews/test_css.py                             21      0   100%
+test/mitmproxy/contentviews/test_dns.py                             12      0   100%
+test/mitmproxy/contentviews/test_graphql.py                         24      0   100%
+test/mitmproxy/contentviews/test_grpc.py                           307      1    99%   330
+test/mitmproxy/contentviews/test_hex.py                             20      0   100%
+test/mitmproxy/contentviews/test_http3.py                           20      0   100%
+test/mitmproxy/contentviews/test_javascript.py                      24      0   100%
+test/mitmproxy/contentviews/test_json.py                            44      0   100%
+test/mitmproxy/contentviews/test_mqtt.py                            18      0   100%
+test/mitmproxy/contentviews/test_msgpack.py                         34      0   100%
+test/mitmproxy/contentviews/test_multipart.py                       18      0   100%
+test/mitmproxy/contentviews/test_protobuf.py                        27      0   100%
+test/mitmproxy/contentviews/test_query.py                           18      0   100%
+test/mitmproxy/contentviews/test_raw.py                             11      0   100%
+test/mitmproxy/contentviews/test_urlencoded.py                      14      0   100%
+test/mitmproxy/contentviews/test_wbxml.py                           19      0   100%
+test/mitmproxy/contentviews/test_xml_html.py                        31      0   100%
+test/mitmproxy/coretypes/__init__.py                                 0      0   100%
+test/mitmproxy/coretypes/test_bidi.py                               11      0   100%
+test/mitmproxy/coretypes/test_multidict.py                         133      0   100%
+test/mitmproxy/coretypes/test_serializable.py                      118      0   100%
+test/mitmproxy/data/addonscripts/addon.py                           16      0   100%
+test/mitmproxy/data/addonscripts/concurrent_decorator.py             8      0   100%
+test/mitmproxy/data/addonscripts/concurrent_decorator_class.py      10      0   100%
+test/mitmproxy/data/addonscripts/concurrent_decorator_err.py         4      1    75%   6
+test/mitmproxy/data/addonscripts/configure.py                        8      0   100%
+test/mitmproxy/data/addonscripts/error.py                            5      0   100%
+test/mitmproxy/data/addonscripts/import_error.py                     2      1    50%   3
+test/mitmproxy/data/addonscripts/load_error.py                       2      0   100%
+test/mitmproxy/data/addonscripts/recorder/a.py                       2      0   100%
+test/mitmproxy/data/addonscripts/recorder/b.py                       2      0   100%
+test/mitmproxy/data/addonscripts/recorder/c.py                       2      0   100%
+test/mitmproxy/data/addonscripts/recorder/e.py                       2      0   100%
+test/mitmproxy/data/addonscripts/recorder/recorder.py               16      0   100%
+test/mitmproxy/data/addonscripts/same_filename/addon.py              1      0   100%
+test/mitmproxy/data/addonscripts/shutdown.py                         3      0   100%
+test/mitmproxy/io/test_compat.py                                    15      0   100%
+test/mitmproxy/io/test_har.py                                       40      5    88%   58-64
+test/mitmproxy/io/test_io.py                                        43      5    88%   26, 39-40, 51, 59
+test/mitmproxy/net/__init__.py                                       0      0   100%
+test/mitmproxy/net/dns/__init__.py                                   0      0   100%
+test/mitmproxy/net/dns/test_classes.py                               5      0   100%
+test/mitmproxy/net/dns/test_domain_names.py                         30      0   100%
+test/mitmproxy/net/dns/test_op_codes.py                              5      0   100%
+test/mitmproxy/net/dns/test_response_codes.py                        6      0   100%
+test/mitmproxy/net/dns/test_types.py                                 5      0   100%
+test/mitmproxy/net/http/__init__.py                                  0      0   100%
+test/mitmproxy/net/http/http1/__init__.py                            0      0   100%
+test/mitmproxy/net/http/http1/test_assemble.py                      63      0   100%
+test/mitmproxy/net/http/http1/test_read.py                         146      0   100%
+test/mitmproxy/net/http/test_cookies.py                            100      0   100%
+test/mitmproxy/net/http/test_headers.py                             19      0   100%
+test/mitmproxy/net/http/test_multipart.py                           25      0   100%
+test/mitmproxy/net/http/test_status_codes.py                         4      0   100%
+test/mitmproxy/net/http/test_url.py                                 92      0   100%
+test/mitmproxy/net/http/test_user_agents.py                          4      0   100%
+test/mitmproxy/net/test_check.py                                    55      0   100%
+test/mitmproxy/net/test_encoding.py                                 47      0   100%
+test/mitmproxy/net/test_local_ip.py                                 11      0   100%
+test/mitmproxy/net/test_server_spec.py                              16      0   100%
+test/mitmproxy/net/test_tls.py                                      51      0   100%
+test/mitmproxy/platform/test_pf.py                                  21      1    95%   11
+test/mitmproxy/proxy/__init__.py                                     0      0   100%
+test/mitmproxy/proxy/conftest.py                                    15      0   100%
+test/mitmproxy/proxy/layers/__init__.py                              0      0   100%
+test/mitmproxy/proxy/layers/http/hyper_h2_test_helpers.py           89      9    90%   42, 82-83, 110-115, 172
+test/mitmproxy/proxy/layers/http/test_http1.py                      73      0   100%
+test/mitmproxy/proxy/layers/http/test_http2.py                     352      0   100%
+test/mitmproxy/proxy/layers/http/test_http3.py                     376      0   100%
+test/mitmproxy/proxy/layers/http/test_http.py                      570      0   100%
+test/mitmproxy/proxy/layers/http/test_http_fuzz.py                 269      3    99%   140, 284, 531
+test/mitmproxy/proxy/layers/http/test_http_version_interop.py       65      0   100%
+test/mitmproxy/proxy/layers/test_dns.py                             94      0   100%
+test/mitmproxy/proxy/layers/test_modes.py                          209      0   100%
+test/mitmproxy/proxy/layers/test_quic.py                           525      1    99%   577
+test/mitmproxy/proxy/layers/test_socks5_fuzz.py                     13      0   100%
+test/mitmproxy/proxy/layers/test_tcp.py                             40      0   100%
+test/mitmproxy/proxy/layers/test_tls.py                            328      0   100%
+test/mitmproxy/proxy/layers/test_tls_fuzz.py                        15      0   100%
+test/mitmproxy/proxy/layers/test_udp.py                             37      0   100%
+test/mitmproxy/proxy/layers/test_websocket.py                      164      0   100%
+test/mitmproxy/proxy/test_commands.py                               24      0   100%
+test/mitmproxy/proxy/test_context.py                                14      0   100%
+test/mitmproxy/proxy/test_events.py                                 26      0   100%
+test/mitmproxy/proxy/test_layer.py                                  81      0   100%
+test/mitmproxy/proxy/test_mode_servers.py                          264     16    94%   147-152, 156, 180-183, 308-313
+test/mitmproxy/proxy/test_mode_specs.py                             63      0   100%
+test/mitmproxy/proxy/test_server.py                                 36      0   100%
+test/mitmproxy/proxy/test_server_hooks.py                            3      0   100%
+test/mitmproxy/proxy/test_tunnel.py                                131      0   100%
+test/mitmproxy/proxy/test_tutils.py                                119      0   100%
+test/mitmproxy/proxy/test_utils.py                                  15      0   100%
+test/mitmproxy/proxy/tutils.py                                     260      4    98%   349-350, 393, 410
+test/mitmproxy/script/__init__.py                                    0      0   100%
+test/mitmproxy/script/test_concurrent.py                            22      1    95%   27
+test/mitmproxy/test_addonmanager.py                                182      3    98%   41, 64, 172
+test/mitmproxy/test_certs.py                                       163      0   100%
+test/mitmproxy/test_command.py                                     195     15    92%   31, 37, 48, 52, 56, 60, 70, 74, 78, 602-603, 607, 628, 652, 689
+test/mitmproxy/test_command_lexer.py                                33      0   100%
+test/mitmproxy/test_connection.py                                   68      0   100%
+test/mitmproxy/test_ctx.py                                           0      0   100%
+test/mitmproxy/test_dns.py                                         148      0   100%
+test/mitmproxy/test_eventsequence.py                                69      0   100%
+test/mitmproxy/test_exceptions.py                                    0      0   100%
+test/mitmproxy/test_flow.py                                        129      3    98%   27, 30-31
+test/mitmproxy/test_flowfilter.py                                  622      0   100%
+test/mitmproxy/test_hooks.py                                        25      0   100%
+test/mitmproxy/test_http.py                                        894      1    99%   795
+test/mitmproxy/test_log.py                                          13      0   100%
+test/mitmproxy/test_master.py                                       18      0   100%
+test/mitmproxy/test_options.py                                       3      0   100%
+test/mitmproxy/test_optmanager.py                                  362      0   100%
+test/mitmproxy/test_proxy.py                                        25      2    92%   31-32
+test/mitmproxy/test_taddons.py                                       5      0   100%
+test/mitmproxy/test_tcp.py                                          46      0   100%
+test/mitmproxy/test_tls.py                                          38      0   100%
+test/mitmproxy/test_typemanager.py                                   0      0   100%
+test/mitmproxy/test_types.py                                       213      1    99%   216
+test/mitmproxy/test_udp.py                                          46      0   100%
+test/mitmproxy/test_version.py                                      26      0   100%
+test/mitmproxy/test_websocket.py                                    46      0   100%
+test/mitmproxy/tools/__init__.py                                     0      0   100%
+test/mitmproxy/tools/console/__init__.py                             0      0   100%
+test/mitmproxy/tools/console/conftest.py                            41      0   100%
+test/mitmproxy/tools/console/test_commander.py                     237      2    99%   71-72
+test/mitmproxy/tools/console/test_common.py                         19      0   100%
+test/mitmproxy/tools/console/test_contentview.py                    31      0   100%
+test/mitmproxy/tools/console/test_defaultkeys.py                    14      2    86%   19-20
+test/mitmproxy/tools/console/test_flowview.py                        6      0   100%
+test/mitmproxy/tools/console/test_integration.py                    14      0   100%
+test/mitmproxy/tools/console/test_keymap.py                        106      0   100%
+test/mitmproxy/tools/console/test_master.py                         22      0   100%
+test/mitmproxy/tools/console/test_palettes.py                        7      0   100%
+test/mitmproxy/tools/console/test_quickhelp.py                      39      0   100%
+test/mitmproxy/tools/console/test_statusbar.py                      16      0   100%
+test/mitmproxy/tools/test_cmdline.py                                22      0   100%
+test/mitmproxy/tools/test_dump.py                                   16      0   100%
+test/mitmproxy/tools/web/__init__.py                                 0      0   100%
+test/mitmproxy/tools/web/test_app.py                               318      1    99%   131
+test/mitmproxy/tools/web/test_master.py                             16      1    94%   11
+test/mitmproxy/tools/web/test_static_viewer.py                      55      0   100%
+test/mitmproxy/utils/__init__.py                                     0      0   100%
+test/mitmproxy/utils/test_arg_check.py                               5      0   100%
+test/mitmproxy/utils/test_asyncio_utils.py                          39      1    97%   57
+test/mitmproxy/utils/test_bits.py                                    0      0   100%
+test/mitmproxy/utils/test_data.py                                    6      0   100%
+test/mitmproxy/utils/test_debug.py                                  25      0   100%
+test/mitmproxy/utils/test_emoji.py                                   4      0   100%
+test/mitmproxy/utils/test_human.py                                  49      0   100%
+test/mitmproxy/utils/test_magisk.py                                 21      0   100%
+test/mitmproxy/utils/test_signals.py                                55      1    98%   48
+test/mitmproxy/utils/test_sliding_window.py                         13      0   100%
+test/mitmproxy/utils/test_spec.py                                   15      0   100%
+test/mitmproxy/utils/test_strutils.py                               76      0   100%
+test/mitmproxy/utils/test_typecheck.py                              68      2    97%   16, 21
+test/mitmproxy/utils/test_vt_codes.py                                4      0   100%
+----------------------------------------------------------------------------------------------
+TOTAL                                                            38498   1869    95%

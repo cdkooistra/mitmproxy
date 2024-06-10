@@ -14,6 +14,18 @@ from mitmproxy import exceptions
 from mitmproxy import version
 from mitmproxy.coretypes import serializable
 
+import atexit
+
+coverage_data = {"kill_branch_1": False}
+
+def write_coverage_data():
+    with open(f"coverage_data_of_{Flow.kill.__name__}.txt", "w") as f:
+        for branch, hit in coverage_data.items():
+            status = "hit" if hit else "missed"
+            f.write(f"{branch}: {status}\n")
+
+atexit.register(write_coverage_data)
+
 
 @dataclass
 class Error(serializable.SerializableDataclass):
@@ -232,6 +244,7 @@ class Flow(serializable.Serializable):
         Kill this flow. The current request/response will not be forwarded to its destination.
         """
         if not self.killable:
+            coverage_data["kill_branch_1"] = True
             raise exceptions.ControlException("Flow is not killable.")
         # TODO: The way we currently signal killing is not ideal. One major problem is that we cannot kill
         #  flows in transit (https://github.com/mitmproxy/mitmproxy/issues/4711), even though they are advertised

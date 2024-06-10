@@ -7,6 +7,7 @@ Name: MITMproxy
 URL: https://github.com/mitmproxy
 
 Number of lines of code and the tool used to count it: 506915; Lizard
+![NLOC results by Lizard](lizard-coverage-results.png)
 
 Programming language: Python (84.4%)
 
@@ -14,11 +15,37 @@ Programming language: Python (84.4%)
 
 ### Existing tool
 
-Lizard was run on the forked MITMproxy files. 
+The existing tool to run was the [coveragepy](https://github.com/nedbat/coveragepy/tree/7.5.3) library in Python.
 
-![Coverage results by Lizard](lizard-coverage-results.png)
+To check the coverage, please look at existing_tool_coverage.txt.
 
 ### Your own coverage tool
+
+Connor Kooistra
+
+Function inside flow.py: Flow.kill() 
+
+```
+import atexit
+
+coverage_data = {"kill_branch_1": False}
+
+def write_coverage_data():
+    with open(f"coverage_data_of_{Flow.kill.__name__}.txt", "w") as f:
+        for branch, hit in coverage_data.items():
+            status = "hit" if hit else "missed"
+            f.write(f"{branch}: {status}\n")
+
+atexit.register(write_coverage_data)
+```
+
+<Provide a screenshot of the coverage results output by the instrumentation>
+
+<Function 2 name>
+
+<Provide the same kind of information provided for Function 1>
+
+
 
 <The following is supposed to be repeated for each group member>
 
